@@ -10,7 +10,7 @@ type Props = {}
 
 const SignInScreen = (props: Props) => {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} >
       <TextInput
         autoCapitalize="none"
         placeholder="Email or Phone Number"

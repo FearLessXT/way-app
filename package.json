@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@clerk/clerk-expo": "^2.6.18",
+    "@clerk/types": "^4.44.0",
     "@gorhom/bottom-sheet": "^5.0.6",
     "axios": "^1.7.9",
     "expo": "~52.0.25",

@@ -2,16 +2,10 @@ import { FlatList, StyleSheet, Text, Vibration, View } from 'react-native'
 import React, { useEffect, useMemo, useState } from 'react'
 import { Stack, Tabs } from 'expo-router'
 import ExploreHeader from '@/components/ExploreHeader'
-import ListingsMap from '@/components/ListingsMap';
-import ListingsBottomSheet from '@/components/ListingButtomSheet';
 import axios from 'axios';
 import { ProductType } from '@/types/type';
 
 const HomeScreen = () => {
-<<<<<<< HEAD
-=======
-
->>>>>>> develop/new-feature
   const [category, setCategory] = useState<string>('Tiny homes');
   const [products, setProducts] = useState<ProductType[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);

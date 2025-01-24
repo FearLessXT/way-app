@@ -65,7 +65,7 @@ const WelcomeScreen = (props: Props) => {
 
               <Text style={styles.loginText}>
                 Already have an account? {" "}
-                <Link href={"/signin"} asChild>
+                <Link href={"(auth)/signin"} asChild>
                   <TouchableOpacity>
                     <Text style={styles.loginTextSpan}>SignIn</Text>
                   </TouchableOpacity>
